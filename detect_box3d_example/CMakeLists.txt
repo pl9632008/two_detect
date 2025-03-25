@@ -9,3 +9,9 @@ find_package(catkin REQUIRED COMPONENTS
 include_directories(${catkin_INCLUDE_DIRS})
 add_executable(a src/main.cpp)
 target_link_libraries(a ${catkin_LIBRARIES})
+
+message("---catkin_INCLUDE_DIRS---")
+message(${catkin_INCLUDE_DIRS})
+
+message("---catkin_LIBRARIES---")
+message(${catkin_LIBRARIES})

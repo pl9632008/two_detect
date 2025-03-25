@@ -432,17 +432,17 @@ class ROS_MODULE:
 
 
                     #lines
-                    marker.type = Marker.LINE_LIST
-                    for line in lines:
-                        ptu = boxes[obid][line[0]]
-                        ptv = boxes[obid][line[1]]
-                        marker.points.append(Point(ptu[0], ptu[1], ptu[2] - offset_ground))
-                        marker.points.append(Point(ptv[0], ptv[1], ptv[2] - offset_ground))
+                    # marker.type = Marker.LINE_LIST
+                    # for line in lines:
+                    #     ptu = boxes[obid][line[0]]
+                    #     ptv = boxes[obid][line[1]]
+                    #     marker.points.append(Point(ptu[0], ptu[1], ptu[2] - offset_ground))
+                    #     marker.points.append(Point(ptv[0], ptv[1], ptv[2] - offset_ground))
                     
                     # points
-                    # marker.type = Marker.POINTS  # 关键：使用 POINTS 类型
-                    # for p in ob:
-                    #     marker.points.append(Point(p[0],p[1],p[2]))
+                    marker.type = Marker.POINTS  # 关键：使用 POINTS 类型
+                    for p in ob:
+                        marker.points.append(Point(p[0],p[1],p[2] - offset_ground))
 
 
                     marker_array.markers.append(marker)
