@@ -213,6 +213,7 @@ class ROS_MODULE:
             label = pred_dicts[0]['pred_labels']
             # print('corner points \n', pts)
 
+
             marker_array.markers.clear()
             marker_array_text.markers.clear()
             for obid in range(boxes.shape[0]):
@@ -402,6 +403,7 @@ class ROS_MODULE:
                 score = pred_dicts[0]['pred_scores']
                 label = pred_dicts[0]['pred_labels']
                 # print('corner points \n', pts)
+
 
                 marker_array.markers.clear()
                 marker_array_text.markers.clear()

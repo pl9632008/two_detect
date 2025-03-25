@@ -6,9 +6,13 @@ find_package(catkin REQUIRED COMPONENTS
     rospy
     std_msgs
 )
-include_directories(${catkin_INCLUDE_DIRS})
+
+find_package(PCL REQUIRED)
+
+
+include_directories(${catkin_INCLUDE_DIRS} ${PCL_INCLUDE_DIRS})
 add_executable(a src/main.cpp)
-target_link_libraries(a ${catkin_LIBRARIES})
+target_link_libraries(a ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
 message("---catkin_INCLUDE_DIRS---")
 message(${catkin_INCLUDE_DIRS})
