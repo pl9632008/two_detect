@@ -1,4 +1,0 @@
-/home/nvidia/wzw/0319/HN_LRIALS_v2.0/two_dect/infer_test/build/CMakeFiles/headinfer.dir
-/home/nvidia/wzw/0319/HN_LRIALS_v2.0/two_dect/infer_test/build/CMakeFiles/a.dir
-/home/nvidia/wzw/0319/HN_LRIALS_v2.0/two_dect/infer_test/build/CMakeFiles/edit_cache.dir
-/home/nvidia/wzw/0319/HN_LRIALS_v2.0/two_dect/infer_test/build/CMakeFiles/rebuild_cache.dir

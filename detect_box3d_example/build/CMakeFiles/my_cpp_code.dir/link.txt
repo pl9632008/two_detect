@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/my_cpp_code.dir/src/my_cpp_code.cpp.o -o my_cpp_code  /usr/lib/aarch64-linux-gnu/libpython3.8.so 
