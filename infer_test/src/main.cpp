@@ -255,6 +255,11 @@ int main(int argc, char* argv[]) {
         cv::Mat img1_rail_mk = infer.img1_rail_mask_;
         cv::Mat img2_rail_mk = infer.img2_rail_mask_;
 
+        if(!img1_rail_mk.empty()){
+
+            cv::imwrite("../frame_near_railmask.jpg",img1_rail_mk);
+        }
+
         cv::Scalar color1 = cv::Scalar(56,0,255);
         cv::Scalar color2 = cv::Scalar(0,255,56);
 
