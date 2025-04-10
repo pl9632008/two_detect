@@ -1,0 +1,10 @@
+<launch>
+  
+  <param name="window_size" value="10" />
+  <param name="roll_variance_threshold" value="0.01" />
+  <param name="pitch_variance_threshold" value="0.01" />
+
+  <node pkg="derail" type="derail_node" name="derail_node"  output="screen"/>
+  
+
+</launch>

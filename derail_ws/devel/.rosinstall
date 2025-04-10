@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/wjd/two_detect/derail_ws/devel/setup.sh

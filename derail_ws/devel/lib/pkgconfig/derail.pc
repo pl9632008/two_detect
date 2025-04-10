@@ -1,0 +1,8 @@
+prefix=/home/nvidia/wjd/two_detect/derail_ws/devel
+
+Name: derail
+Description: Description of derail
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
